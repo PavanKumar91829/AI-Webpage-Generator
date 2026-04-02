@@ -104,7 +104,7 @@ AI-Webpage-Generator/
 │
 ├── webpage_app.py          # Main Streamlit application
 ├── requirements.txt        # Python dependencies
-├── README.md              # Project documentation
+├──README.md              # Project documentation
 ```
 
 ## 🛠️ Technical Details
@@ -183,5 +183,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 If you find this project useful, please consider giving it a star ⭐ to show your support!
 
 ---
-
-**Made with ❤️ and AI**
