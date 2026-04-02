@@ -105,8 +105,6 @@ AI-Webpage-Generator/
 ├── webpage_app.py          # Main Streamlit application
 ├── requirements.txt        # Python dependencies
 ├── README.md              # Project documentation
-├── .env                   # Environment variables (create this)
-└── .gitignore            # Git ignore file (recommended)
 ```
 
 ## 🛠️ Technical Details
@@ -159,46 +157,6 @@ Menu Items: Pasta Carbonara, Margherita Pizza, Tiramisu
 Hours: Mon-Sat 5PM-10PM
 ```
 
-### Example 3: Product Showcase
-
-**Description:**
-```
-A modern product showcase page with image carousel, feature highlights, and pricing table
-```
-
-**Content:**
-```
-Product: SmartWatch Pro
-Features: Heart Rate Monitor, GPS Tracking, 7-Day Battery
-Price: $299
-```
-
-## 🔧 Troubleshooting
-
-### Common Issues
-
-**Issue:** `ModuleNotFoundError: No module named 'streamlit'`  
-**Solution:** Make sure you've installed all dependencies: `pip install -r requirements.txt`
-
-**Issue:** `API key not found`  
-**Solution:** Verify your `.env` file exists and contains `gemini_key=YOUR_ACTUAL_API_KEY`
-
-**Issue:** Generated files are empty  
-**Solution:** Check your internet connection and ensure your Gemini API key is valid and has available quota
-
-**Issue:** App doesn't open in browser  
-**Solution:** Manually navigate to `http://localhost:8501` or check if port 8501 is already in use
-
-## 🤝 Contributing
-
-Contributions are welcome! Here's how you can help:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
 ### Ideas for Contribution
 
 - Add support for additional AI models (Claude, GPT-4, etc.)
@@ -218,10 +176,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Streamlit](https://streamlit.io/) - For the amazing web framework
 - [LangChain](https://python.langchain.com/) - For LLM orchestration
 
-## 📞 Contact & Support
 
-- **Issues:** [GitHub Issues](https://github.com/yourusername/AI-Webpage-Generator/issues)
-- **Discussions:** [GitHub Discussions](https://github.com/yourusername/AI-Webpage-Generator/discussions)
 
 ## 🌟 Star This Repository
 
